@@ -12,7 +12,7 @@ const getComputerChoice = () => {
 //Use this function to play a single round of RPS
 const playRound = (playerSelection, computerSelection) =>  {
     if (playerSelection===computerSelection) {
-        return `You tied! You both picked ${playersSelecetion}`
+        return `You tied! You both picked ${playerSelection}`
     }
     else if (playerSelection==='scissors' && computerSelection === 'rock') {
         //compScore = compScore +1, compScore--, compScore = compScore - 1
@@ -63,4 +63,4 @@ const game = () => {
     }
 }
 
-console.log (game())
+console.log(game())
